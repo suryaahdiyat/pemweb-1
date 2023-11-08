@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/icon.svg" type="image/x-icon">
+    <title>Hana Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="javascript:location.reload(true)">
+                <img src="assets/logo.svg" alt="Hana Restaurant">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#makanan">MAKANAN</a></li>
+                <li><a href="#minuman">MINUMAN</a></li>
+                <li><a href="#pesan">PESAN</a></li>
+            </ul>
+        </nav>
+        <div class="humberger-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-left">
+            <h1>Seder<span>Hana</span></h1>
+            <div>Namun Istimewa dalam<br>Setiap Suapan.</div>
+            <p>Di rumah makan kami, kesederhanaan adalah ciri khas. Namun jangan salah, setiap hidangan yang kami sajikan adalah perpaduan cermat antara cita rasa autentik dan keistimewaan yang memikat</p>
+            <a href="#pesan" class="btn">PESAN SEKARANG</a>
+        </div>
+        <div class="hero-right">
+            <img src="assets/hero-image.svg" alt="Hero Image">
+        </div>
+    </section>
+    <section class="menu">
+        <h2>Menu</h2>
+        <div class="list-menu">
+            <h4 id="makanan">MAKANAN</h4>
+            <div class="wrapper">
+                <img src="assets/menu/makanan-1.svg" alt="Nasi Goreng">
+                <img src="assets/menu/makanan-2.svg" alt="Sop Ayam">
+                <img src="assets/menu/makanan-3.svg" alt="Ayam Goreng Lalapan">
+                <img src="assets/menu/makanan-4.svg" alt="Mie Ramen">
+                </div>
+            </div>
+        </div>
+        <div class="list-menu">
+            <h4 id="minuman">MINUMAN</h4>
+            <div class="wrapper">
+                <img src="assets/menu/minuman-1.svg" alt="Es Kopi">
+                <img src="assets/menu/minuman-2.svg" alt="Es Teh Lemon">
+                <img src="assets/menu/minuman-3.svg" alt="Jus Alpukat">
+                <img src="assets/menu/minuman-4.svg" alt="Jus Mangga">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pesan"">
+        <h2 id="pesan">PESAN</h2>
+        <form action="">
+            <input id="nama" type="text" placeholder="NAMA">
+            <input id="no-hp" type="number" placeholder="NO HP">
+            <input id="email" type="email" placeholder="EMAIL">
+            <textarea id="pesanan" cols="30" rows="10" placeholder="PESANAN"></textarea>
+            <textarea id="alamat" cols="30" rows="10" placeholder="ALAMAT"></textarea>
+            <button class="btn" type="submit">KIRIM PESANAN</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-left">
+            <p>Jl. Boulvard, Mall Panakkukang, Masale, Panakkukang, Kota Makassar, Sulawesi Selatan</p>
+        </div>
+        <div class="footer-right">
+            <div class="medsos">
+                <img src="assets/sosmed/instagram.svg" alt="instagram logo">
+                <img src="assets/sosmed/facebook.svg" alt="facebook logo">
+                <img src="assets/sosmed/whatsapp.svg" alt="whatsapp logo">
+            </div>
+            <div class="copyright">Copyright &copy; 2023</div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</html>
